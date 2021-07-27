@@ -15,7 +15,6 @@ const App = () => {
     {name: 'Item 27'},
     {name: 'Item 78'},
   ]);
-  //props.children
   return (
     <FlatList
       keyExtractor={(item, index) => index.toString()}
